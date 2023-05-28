@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <input type="text" id="resourse">
+    <div class="button">
+
+        <input type="button" class="operater" value="C"onclick="clearDisplay()">
+        <input type="button" class="operater" value="*"onclick="solution('*')">
+        <input type="button" class="operater" value="%"onclick="solution('%')">
+        <input type="button" class="operater" value="/"onclick="solution('/')">
+        <input type="button" class="operater" value="←"onclick="back('←')">
+
+        <input type="button"  class="Element" value="7"onclick="solution(7)">
+        <input type="button"  class="Element" value="8"onclick="solution(8)">
+        <input type="button"  class="Element" value="9"onclick="solution(9)">
+        <input type="button" class="operater" value="-"onclick="solution('-')">
+
+        <input type="button" class="Element" value="4"onclick="solution(4)">
+        <input type="button" class="Element" value="5"onclick="solution(5)">
+        <input type="button" class="Element" value="6"onclick="solution(6)">
+        <input type="button" class="operater" value="+"onclick="solution('+')">
+
+        <input type="button" class="Element" value="1"onclick="solution(1)">
+        <input type="button" class="Element" value="2"onclick="solution(2)">
+        <input type="button" class="Element" value="3"onclick="solution(3)">
+        <input type="button" class="operater" value="."onclick="solution('.')">
+
+        <input type="button" class="Element" value="0"onclick="solution(0)">
+        <input type="button" class="Element" value="00"onclick="solution(00)">
+        <input type="button" class="operater" value="Enter"onclick="Enter()">
+        </div>
+    </div>
+    <script src= 'script.js'></script>
+</body>
+</html>
